@@ -1,0 +1,44 @@
+nav{
+    padding-top: 1%;
+}
+
+.arrange{
+    display:flex;
+    flex-direction: row;
+}
+
+li{
+    margin: 20px;
+}
+
+#icon{
+    text-decoration: none;
+    color: bisque;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.blogs{
+    margin-left:2200%;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.contact{
+    margin-left:1100%;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+

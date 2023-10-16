@@ -1,0 +1,148 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"); */
+/*  */
+/* :root { */
+    /* --body-bg: #f5f8ff; */
+    /* --box-bg: #fff; */
+    /* --input-bg: #f5f8ff; */
+    /* --txt-color: #2f2d2f; */
+    /* --txt-second-color: #ccc; */
+    /* --border-color: #4267b2; */
+    /* --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+/* } */
+/*  */
+/* * { */
+    /* padding: 0; */
+    /* margin: 0; */
+    /* box-sizing: border-box; */
+/* } */
+/*  */
+/* .body { */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding-top: 100px; */
+/* } */
+/*  */
+/* body{ */
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-weight: 400; */
+    /* line-height: 1.5; */
+    /* background-color: var(--body-bg); */
+    /* color: var(--txt-color); */
+/* } */
+/*  */
+/* .box { */
+    /* background-color: var(--box-bg); */
+    /* padding: 30px; */
+    /* border-radius: 20px; */
+    /* box-shadow: var(--box-shadow); */
+/* } */
+/*  */
+/* .header { */
+    /* margin-bottom: 30px; */
+    /* text-align: center; */
+/* } */
+/*  */
+/* .box h2{ */
+    /* opacity: 1; */
+    /* color: black; */
+/* } */
+/*  */
+/* .box{ */
+  /* z-index: 10000; */
+/* } */
+/*  */
+/*  */
+/*  */
+/* /~ ************************************************************************************************************************************************************* ~/ */
+/*  */
+/*  */
+/* html, */
+/* body { */
+  /* margin: 0; */
+  /* /~ overflow: hidden; ~/ */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* cursor:inherit; */
+  /* background: black; */
+  /* background: radial-gradient(ellipse at bottom, #326096 10%, #090a0f 100%); */
+/* } */
+/*  */
+/*  */
+/* .moon{ */
+  /* border-radius: 50%; */
+  /* width: 100px; */
+  /* height: 100px; */
+  /* margin-top: 7%; */
+  /* margin-left: 8%; */
+  /* /~ background: url(assets/moon.png); ~/ */
+  /* background-size: cover; */
+  /* background-repeat: repeat-x; */
+  /* position: fixed; */
+  /* animation: moon-rotation 90s linear infinite; */
+  /* z-index: 999; */
+  /* box-shadow: inset 6px 0 8px black, */
+              /* inset 20px 0 12px rgba(0, 0, 0,0.9), */
+              /* inset -20px 0 12px rgba(248, 248, 213,0.2); */
+/* } */
+/*  */
+/* .moon::before{ */
+  /* content:""; */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform:translate(-50%, -50%); */
+  /* border-radius: 50%; */
+  /* width: 95px; */
+  /* height: 95px; */
+  /* box-shadow: -12px 0 8px black ; */
+/* } */
+/*  */
+/* @keyframes moon-rotation { */
+  /* from {background-position:-500px center;} */
+  /* to {background-position: 495px center;} */
+/* } */
+/*  */
+/*  */
+/* .input_text:focus{ */
+  /* outline:none; */
+/* } */
+/*  */
+/* .filter { */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* position: absolute; */
+  /* top: 50px; */
+  /* left: 0; */
+  /* background:  #fe5757; */
+  /* animation: colorChange 30s ease-in-out infinite; */
+  /* animation-fill-mode: both; */
+  /* mix-blend-mode: overlay; */
+  /* z-index: 0; */
+/* } */
+/*  */
+/* @keyframes colorChange { */
+  /* 0%, */
+  /* 100% { */
+    /* opacity: 0; */
+  /* } */
+  /* 50% { */
+    /* opacity: .9; */
+  /* } */
+/* } */
+/*  */
+/* body { */
+  /* /~ background-image: url(https://openclipart.org/image/2400px/svg_to_png/250847/Trees-Landscape-Silhouette.png); ~/ */
+  /* background-size: 1500px 350px; */
+  /* background-repeat: repeat-x; */
+  /* background-position: center bottom; */
+/* } */
+/*  */
+/* footer{ */
+  /* position: fixed; */
+  /* z-index: 997; */
+  /* width: 100%; */
+  /* height: 10px; */
+  /* bottom: 0; */
+  /* background-color: black; */
+/* } */
+/*  */
